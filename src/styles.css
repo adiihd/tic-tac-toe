@@ -6,6 +6,8 @@ body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
+  background-color: #23272f;
+  color: #fff;
 }
 
 h1 {
@@ -57,29 +59,36 @@ body {
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  color: #fff;
+  background: #16181d;
+  border: 1px solid #000;
   float: left;
-  font-size: 24px;
+  font-size: 3rem;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 6rem;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 6rem;
+}
+
+.square:hover {
+  background-color: #283541;
 }
 
 .board-row:after {
   clear: both;
-  content: '';
+  content: "";
   display: table;
 }
 
 .status {
   margin-bottom: 10px;
+  font-size: 3rem;
 }
+
 .game {
   display: flex;
   flex-direction: row;
